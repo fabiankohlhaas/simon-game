@@ -1,4 +1,4 @@
-#Simon Game
+# Simon Game
 
 A small project from Angela Yu's Complete Web Development Bootcamp
 
