@@ -41,16 +41,13 @@ function nextSequence() {
   userClickedPattern = [];
 }
 
+/*to make the buttons play a sound*/
 function playSound(name) {
   var buttonSound = new Audio("sounds/" + name + ".mp3");
   buttonSound.play();
 }
 
-function playSound(name) {
-  var buttonSound = new Audio("sounds/" + name + ".mp3");
-  buttonSound.play();
-}
-
+/* to make the buttons flash */
 function animatePress(currentColor) {
 
   var activeButton = $("#" + currentColor);
@@ -61,6 +58,7 @@ function animatePress(currentColor) {
   }, 100);
 }
 
+/* to check if the clicked button was correct */
 function checkAnswer(currentLevel) {
   if (userClickedPattern[currentLevel] === gamePattern[currentLevel]) {
     if (userClickedPattern.length === gamePattern.length)
@@ -82,6 +80,7 @@ function checkAnswer(currentLevel) {
   }
 }
 
+/* to reset the game */
 function startOver() {
   level = 0;
   gamePattern = [];
