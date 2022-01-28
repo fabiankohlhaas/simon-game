@@ -1,6 +1,6 @@
 #Simon Game
 
-A small project from Angela Yu's Complete Wev Development Bootcamp
+A small project from Angela Yu's Complete Web Development Bootcamp
 
 ## Table of Contents
 
